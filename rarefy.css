@@ -1,0 +1,288 @@
+/* GENERAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #0B3A4E;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background-color: #0B3A4E;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  color: #F7D600;
+}
+
+.nav-links a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #F7D600;
+}
+
+.firstcta-button {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border: none;
+  color: #0B3A4E;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.firstcta-button:hover {
+  background-color: #F7D600;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #0B3A4E;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 40px;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #F7D600;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.cta-button {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border: none;
+  color: #0B3A4E;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #F7D600;
+}
+
+/* SECOND HERO */
+.secondhero {
+  background-color: #F9F9F7;
+  color: #0B3A4E;
+  text-align: left;
+  padding: 100px 40px;
+}
+
+.secondhero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-block{
+  flex: 1;
+}
+
+.image-block {
+  flex: 1;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.digital {
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #0B3A4E;
+}
+
+.digitalbutton{
+  padding: 16px 32px;
+  background-color: transparent;
+  border: 2px solid #0B3A4E;
+  color: #0B3A4E;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.digitalbutton:hover {
+  background-color: #0B3A4E;
+  color: #ffffff;
+}
+
+.mission {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.dot {
+  color: #0B3A4E;
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.thirdhero{
+  background-color:#ffffff;
+  color: #0B3A4E;
+  /*Used ai to learn how to do this...*/
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.thirdherorow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap; 
+}
+
+.leftcolumn, .rightcolumn {
+  flex: 1;
+  min-width: 300px;
+}
+
+.leftcolumn h2, .rightcolumn h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.leftcolumn p, .rightcolumn p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.fourthhero {
+  background-color: #0B3A4E;
+  color: #ffffff;
+  text-align: left;
+  padding: 100px 40px;
+}
+
+.fourthherocontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  
+}
+
+.fourthherotext {
+  flex: 1;
+}
+.text-block {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.fourthherotitle {
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.dot2 {
+  color: #ffffff;
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.lineup1 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.lineup2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #FFFFFF66;
+}
+
+.lineup3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #0B3A4E;
+}
+
+.whiteline {
+  width: 48%;
+  height: 1px;
+  background-color: #FFFFFF66;
+  margin: 20px 0;
+}
+
+.fourthimage-block {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  max-width: 100%;
+  margin-top: -40px;
+}
+
+.fourthimage-block img {
+  width: 570px;
+ border-radius: 20px;
+  height: 670px;
+  object-fit: cover;
+  margin-top: 250px;
+}
+
