@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rarefy Website</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-
+ <!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <!-- External CSS -->
   <link rel="stylesheet" href="rarefy.css" />
 </head>
@@ -18,27 +18,27 @@
   <header class="navbar">
     <div class="logo">Rarefy</div>
     <nav class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
+      <a href="index.html">Home</a>
+      <a href="main.html">About</a>
       <a href="#">Solutions</a>
       <a href="#">Industry</a>
       <a href="#">Our Approach</a>
     </nav>
-    <button class="firstcta-button">Schedule a Call</button>
+    <button class="button button-white">Schedule a Call</button>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1 class="hero-title">Transform Your Business With<br>Digital Innovation That Works</h1>
-    <p class="hero-subtitle">We help African SMBs build & implement powerful digital business models without the enterprise price tag or technical complexity.</p>
-    <button class="cta-button">Schedule a Call</button>
-  </section>
+<!-- Hero Section -->
+<section class="home-intro">
+<h1 class="home-intro-title">Transform Your Business With<br>Digital Innovation That Works</h1>
+<p class="home-intro-subtitle">We help African SMBs build & implement powerful digital business models without the enterprise price tag or technical complexity.</p>
+<button class="button button-white">Schedule a Call</button>
+</section>
 
   <!-- Digital Innovation Section -->
-  <section class="secondhero">
-    <div class="secondhero-content">
+  <section class="home-our-approach">
+    <div class="home-our-approach-content">
       <div class="text-block">
-        <p class="mission"><span class="dot">●</span>Our Approach</p>
+        <p class="mission"><span class="dot dot-blue">●</span>Our Approach</p>
         <h1 class="digital">Digital Innovation<br>Made Accessible</h1>
         <p class="digitaltextblock">
           At Rarefy Consulting, we understand that most small and medium<br>
@@ -51,12 +51,99 @@
           components that can be rapidly assembled to create custom<br>
           solutions for your specific needs.
         </p>
-        <br><br><button class="digitalbutton">Explore Our Approach</button>
+        <br><br><button class="button button-transparent">Explore Our Approach</button>
       </div>
       <div class="image-block">
-        <img src="images/rarefygirl.png" alt="Smiling Girl">
+        <img src="/images/rarefygirl.png" alt="Smiling Girl">
       </div>
     </div>
   </section>
-</body>
+<section class="thirdhero">
+    <div class="thirdherocontent">
+      <div class="thirdherotext">
+  <p class="mission"><span class="dot dot-blue">●</span>Why Rarefy?</p>
+  <h1 class="digital">The Rarefy Difference</h1>
+
+  <div class="thirdherorow"> 
+    <div class="leftcolumn">
+      <h2 class="thirdherosub1">Strategic Partnership</h2>
+      <p class="thirdherosub1text">We're business consultants first, developers<br> second. We help you identify opportunities for<br> digital growth, not just build what you ask for.</p>
+      <br><br>
+      <h2 class="thirdherosub2">African Market Focus</h2>
+      <p class="thirdherosub2text">We understand the unique challenges and<br> opportunities for business in African markets.</p>
+      <br><br>
+    </div>
+
+    <div class="rightcolumn">
+      <h2 class="thirdherosub3">Modular Solutions</h2>
+      <p class="thirdherosub3text">Our pre-built components for eCommerce,<br> appointment scheduling, data management, and<br> real-time communication mean faster<br> implementation and lower costs.</p>
+      <br><br>
+      <h2 class="thirdherosub4">End-to-End Support</h2>
+      <p class="thirdherosubtext4">From initial discovery to ongoing maintenance,<br> we're with you at every step of your digital journey.</p>
+      <br><br>
+    </div>
+  </div>
+
+  <button class="button button-transparent">See our Solutions</button>
+</div>
+
+    </div>
+  </section>
+<!-- Used Ai to be able to align the image and text on same  -->
+ <section class="fourthhero">
+  <div class="fourthherocontent">
+    <!-- Text Block on the Left -->
+    <div class="fourthherotext">
+      <div class="text-block">
+        <p class="mission"><span class="dot dot-white">●</span>Our Solutions</p>
+        <h1 class="fourthherotitle">Digital Building Blocks for<br> Your Business</h1>
+        <hr class="whiteline">
+        <p class="lineup1">eCommerce Platforms</p>
+        <hr class="whiteline">
+        <p class="lineup2">Customer Management</p>
+        <hr class="whiteline">
+        <p class="lineup2">Appointment Scheduling</p>
+        <hr class="whiteline">
+        <p class="lineup2">Content Management</p>
+        <hr class="whiteline"><br>
+        <p class="fourthherominitext" style="font-size: small;">Sell products and services online.</p>
+        <br><br>
+        <button class="button button-white">View All Solutions</button>
+      </div>
+    </div> <!-- Image Block on the Right -->
+    <div class="fourthimage-block">
+      <img src="images/clothesgirl.png" alt="Girl with Clothes" >
+    </div>
+
+  </div>
+</section>
+ <!-- Footer 
+<footer class="hero">
+  <h1 class="hero-subtitle">Ready to Transform Your Business?</h1>
+  <p>Let's discuss how digital innovation can help you better serve existing customers, reach new ones, and even<br> enter new markets—all without breaking the bank or requiring technical expertise on your part.</p>
+<button class="cta-button">Schedule a Free Consultation</button><button class="digitalbutton">Learn More</button>
+  <hr class="footer-line">
+  <h1 class="hero-title">Rarefy</h1>
+    <div clas="footer-texts">
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="main.html">About</a>
+    <a href="#">Solutions</a>
+    <a href="#">Industry</a>
+    <a href="#">Our Approach</a>
+  </div>
+  <div class="social-icons">
+    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+  </div>
+  </div>
+  <hr class="footer-line2">
+<p class="footer-bottom">© 2025 Rarefy Consulting. All rights reserved.</p>
+ 
+</footer>
+    -->
+ 
+
+ </body>
 </html>
