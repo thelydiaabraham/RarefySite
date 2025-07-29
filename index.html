@@ -95,7 +95,9 @@
     <!-- Text Block on the Left -->
     <div class="fourthherotext">
       <div class="text-block">
-        <p class="mission"><span class="dot dot-white">●</span>Our Solutions</p>
+        <div class="dotandtext">
+          <br><br>
+        <p class="mission"><span class="dot dot-white">●</span>Our Solutions</p></div>
         <h1 class="fourthherotitle">Digital Building Blocks for<br> Your Business</h1>
         <hr class="whiteline">
         <p class="lineup1">eCommerce Platforms</p>
@@ -117,32 +119,146 @@
 
   </div>
 </section>
- <!-- Footer 
-<footer class="hero">
-  <h1 class="hero-subtitle">Ready to Transform Your Business?</h1>
-  <p>Let's discuss how digital innovation can help you better serve existing customers, reach new ones, and even<br> enter new markets—all without breaking the bank or requiring technical expertise on your part.</p>
-<button class="cta-button">Schedule a Free Consultation</button><button class="digitalbutton">Learn More</button>
-  <hr class="footer-line">
-  <h1 class="hero-title">Rarefy</h1>
-    <div clas="footer-texts">
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="main.html">About</a>
-    <a href="#">Solutions</a>
-    <a href="#">Industry</a>
-    <a href="#">Our Approach</a>
+<!-- Process Section 
+<section class="process-container">
+    <div class="process-image-section">
+      <img src="images/rarefy boy.png" alt="Boy smiling"/>
+    </div>
+    <div class="process-content-section">
+      <p class="mission"><span class="dot dot-blue">●</span>Our Process </p>
+      <h1>How We Work With You</h1>
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Discovery
+        </div>
+        <div class="process-accordion-content">
+          <p>We learn about your business, goals, and challenges.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Planning
+        </div>
+        <div class="process-accordion-content">
+          <p>We craft a detailed project plan and milestones.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Design
+        </div>
+        <div class="process-accordion-content">
+          <p>We create UI/UX that aligns with your brand and goals.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Development
+        </div>
+        <div class="process-accordion-content">
+          <p>We build your solution using clean and scalable code.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Quality Assurance
+        </div>
+        <div class="process-accordion-content">
+          <p>We test thoroughly to ensure everything works flawlessly.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup4 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Deployment
+        </div>
+        <div class="process-accordion-content">
+          <p>We launch your product with zero downtime.</p>
+        </div>
+      </div>
+
+      <div class="process-accordion-item">
+        <div class="process-accordion-header lineup3 process-accordion-toggle" onclick="toggleAccordion(this)">
+          Maintenance
+        </div>
+        <div class="process-accordion-content">
+          <p>We support and enhance your product post-launch.</p>
+        </div>
+      </div>
+
+      <div class="process-button">
+        <button class="process-btn">Explore Our Approach</button>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    function toggleAccordion(element) {
+      const content = element.nextElementSibling;
+      const isOpen = content.classList.contains("open");
+      document.querySelectorAll('.process-accordion-content').forEach(c => c.classList.remove("open"));
+      document.querySelectorAll('.process-accordion-toggle').forEach(t => t.classList.remove("open"));
+      if (!isOpen) {
+        content.classList.add("open");
+        element.classList.add("open");
+      }
+    }
+  </script>-->
+
+
+<section class="testimonials">
+  
+    <p class="mission1"><span class="dot dot-blue dot-align">●</span>Testimonials</p>
+<div class="testimonial-container">
+    <div class="testimonial-image">
+      <img src="images/daniel.jpg" alt="Daniel">
+    </div>
+
+    <div class="testimonial-text">
+      <h1 class="testimonial-title">
+        "We're currently building success stories with businesses<br>
+        like yours across Africa. Your company could be featured<br>
+        here next!"
+      </h1>
+      <br><br>
+      <p class="testimonial-author">Daniel Osarokutamwen</p>
+      <p class="testimonial-position">Co-Founder, Rarefy Consulting</p>
+      <br><br>
+      <button class="button button-transparent">Be Our Next Success Story →</button>
+    </div>
+    </div>
   </div>
-  <div class="social-icons">
-    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-  </div>
-  </div>
-  <hr class="footer-line2">
-<p class="footer-bottom">© 2025 Rarefy Consulting. All rights reserved.</p>
+</section>
+
+
+ 
+<footer class="footer">
+ <h1 class="footerheader">Ready to Transform Your<br>Business?</h1>
+  <p class="footer-text">Let's discuss how digital innovation can help you better serve existing customers, reach new ones, and even<br>enter new markets—all without breaking the bank or requiring technical expertise on your part.</p>
+<button class="button button-white">Schedule a Free Consultation</button><button class="button button-transparent2">Learn More</button>
+<br>
+<br>
+<hr class="footerline">
+  <h1 class="footermaintext">Rarefy</h1>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="main.html">About</a>
+<a href="#">Solutions</a>
+<a href="#">Industry</a>
+<a href="#">Our Approach</a>
+</nav>
+
+  <br>
+  <hr class="footerline">
+  <br>
+<p class="footerbottom">© 2025 Rarefy Consulting. All rights reserved.</p>
  
 </footer>
-    -->
+
  
 
  </body>
